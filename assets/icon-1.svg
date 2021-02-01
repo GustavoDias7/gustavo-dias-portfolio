@@ -26,17 +26,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="8.5294831"
-     inkscape:cy="46.470178"
+     inkscape:cx="51.208428"
+     inkscape:cy="55.056475"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1366"
+     inkscape:window-width="683"
      inkscape:window-height="705"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,22 +58,25 @@
        aria-label="L"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="text12" />
-    <circle
-       id="path9"
-       cx="13.229167"
-       cy="283.77081"
-       r="13.176356"
-       style="fill:#ffffff;fill-opacity:0;stroke:#dedede;stroke-width:0.1056221;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.47447205px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#00c2ff;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="8.3415308"
-       y="289.84708"
-       id="text241"><tspan
-         sodipodi:role="line"
-         id="tspan239"
-         x="8.3415308"
+    <g
+       id="g46">
+      <circle
+         style="fill:#ffffff;fill-opacity:0;stroke:#dedede;stroke-width:0.1056221;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         r="13.176356"
+         cy="283.77081"
+         cx="13.229167"
+         id="path9" />
+      <text
+         id="text241"
          y="289.84708"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:calibri;-inkscape-font-specification:calibri;fill:none;stroke:#00c2ff;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">$</tspan></text>
+         x="8.3415308"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.47447205px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#00c2ff;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:calibri;-inkscape-font-specification:calibri;fill:none;stroke:#00c2ff;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           y="289.84708"
+           x="8.3415308"
+           id="tspan239"
+           sodipodi:role="line">$</tspan></text>
+    </g>
   </g>
 </svg>
