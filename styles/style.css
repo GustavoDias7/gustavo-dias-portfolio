@@ -92,15 +92,27 @@ a {
 /* MAIN-HEADER */
 
 .main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 1.2rem 1.5rem;
     background-color: #20202A;
 }
 
+.main-header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .main-header h2 {
-    margin: 0;
+    margin: 0 auto 0 0;
+}
+
+.main-header ul {
+    list-style-type: none;
+}
+
+.main-header li {
+    display: inline-block;
+    margin-left: 2rem;
 }
 
 /* SECTION-01 */
