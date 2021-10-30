@@ -33,7 +33,6 @@ a:hover {
 
 .buttons {
   display: flex;
-  width: min-content;
   align-items: center;
 }
 
@@ -186,24 +185,24 @@ a:hover {
   background-color: #20202a;
 }
 
-.project-image-container {
+.project figure {
   width: 100%;
   margin-bottom: 0.5rem;
   overflow: hidden;
 }
 
-.project-image {
+.project figure img {
   width: 100%;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
-.project-image:hover {
+.project figure img:hover {
   transform: scale(1.1);
   opacity: 0.7;
 }
 
-.project-header {
+.project header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -224,40 +223,9 @@ a:hover {
   text-decoration: none;
 }
 
-.example::before {
-  content: "Acesse";
-}
-
 .example:hover,
-.example:active {
+.example:focus {
   color: #4dcff7;
-}
-
-.zoom-image-container {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: #00000091;
-}
-
-.zoom-image-container figure {
-  position: relative;
-  width: 92%;
-  max-height: 92%;
-}
-
-.zoom-image {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.open-zoom-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* TECHS */
