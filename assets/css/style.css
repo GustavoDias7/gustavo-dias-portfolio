@@ -31,27 +31,22 @@ a:hover {
   color: #00a9dd;
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-}
-
 .main-button {
   display: block;
   font-size: 1rem;
   border: none;
-  width: 8rem;
+  width: 9rem;
   line-height: 2.5rem;
   text-align: center;
-  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 4px;
   background-color: #00a9dd;
   box-shadow: 0 0 10px #00c2ff;
-  transition: 0.2s;
 }
 
 .main-button:hover,
 .main-button:focus {
-  color: #eee;
+  color: #fafafc;
   outline: none;
   background-color: #01bfee;
   box-shadow: 0 0 15px #2cceff;
@@ -60,46 +55,21 @@ a:hover {
 .secondary-button {
   font-size: 1rem;
   border: none;
-  width: 8rem;
+  width: 9rem;
   line-height: 2.5rem;
   text-align: center;
-  cursor: pointer;
+  margin-left: 0.6rem;
+  transition: 0.2s;
+  border-radius: 4px;
   background-color: unset;
   border: 2px solid #fafafc;
-  transition: 0.2s;
-  margin-left: 0.6rem;
 }
 
 .secondary-button:hover,
 .secondary-button:focus {
   outline: none;
-  color: #eee;
+  color: #ddd;
   background-color: #fafafc21;
-}
-
-.certer-button {
-  margin: 2rem auto 0;
-}
-
-.btn-close-zoom-image {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  outline: none;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  background-color: #00a9dd;
-  box-shadow: 0 0 10px #00c2ff;
-  transition: 0.2s;
-}
-
-.btn-close-zoom-image:hover,
-.btn-close-zoom-image:active {
-  background-color: #01bfee;
-  box-shadow: 0 0 12px #2cceff;
 }
 
 .blue-color {
@@ -128,45 +98,44 @@ a:hover {
 }
 
 /* HERO */
+.hero {
+  margin-top: 7rem;
+}
 
-.hero .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
+.hero .profile {
+  position: relative;
+  padding: 85px 32px 32px;
   margin: 0px auto;
   max-width: 700px;
+  text-align: center;
   background-color: #20202a;
 }
 
-.profile {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 195px;
-  height: 260px;
-  margin-right: 1rem;
-  background-color: #2c2c37;
-}
-
-.profile-photo {
-  width: 100px;
-  height: 100px;
+.hero .profile img {
+  position: absolute;
+  top: -65px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border: 6px solid #20202a;
   border-radius: 50%;
 }
 
-.profile h2 {
-  margin: 0.5rem 0;
+.hero .profile h2 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0px 0px;
 }
 
-.texts {
-  margin-bottom: 0.8rem;
+.hero .profile p {
+  margin: 1rem 0 2rem;
 }
 
-.texts p {
-  font-size: 1.8rem;
-  font-weight: bolder;
+.hero .profile .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* PROJECTS */
@@ -278,26 +247,8 @@ a:hover {
     margin: 0 20px;
   }
 
-  .hero .content {
-    max-width: 390px;
-    flex-direction: column;
-    text-align: center;
-  }
-
   .profile {
     margin: 0;
-  }
-
-  .buttons {
-    margin: auto;
-  }
-
-  .buttons a {
-    margin: auto;
-  }
-
-  .buttons a:first-child {
-    margin-bottom: 0.8rem;
   }
 
   .projects .content {
@@ -312,21 +263,35 @@ a:hover {
 }
 
 @media (max-width: 512px) {
-  .texts {
-    margin: 0.8rem 0;
+  .hero .profile {
+    padding: 55px 32px 32px;
   }
 
-  .texts p {
-    font-size: 1.2rem;
-    font-weight: bolder;
+  .hero .profile img {
+    width: 120px;
+    height: 120px;
+    top: -60px;
+  }
+
+  .hero .profile h2 {
+    font-size: 2rem;
+  }
+
+  .hero .profile p {
+    max-width: 200px;
+    margin: 0.6rem auto 1.2rem;
+  }
+
+  .hero .profile p br {
+    display: none;
   }
 
   .buttons {
     flex-direction: column;
   }
 
-  .button-container + .button-container {
-    margin: 0.8rem 0 0;
+  .buttons .secondary-button {
+    margin: 0.6rem 0;
   }
 
   .main-button,
